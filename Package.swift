@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "Eureka",
-    platforms: [.iOS(.v9)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(name: "Eureka", targets: ["Eureka"])
     ],
